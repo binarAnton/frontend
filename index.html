@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta namme="keywords" content="html, CSS, вёрстка сайта">
+    <meta name="description" content="Это сайт резюме Бедаша Антона Васильевича">
+    <title>Резюме Бедаша Антона Васильевича</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="conteiner">
+ <!--<div class="card">-->
+    <div class="info">
+                  <img src="images/20230313.png" alt="Изображение аватара" class="avatar"> 
+    </div>              <!--<hr color="grey" align="left", size="5", width="100%" >-->
+                   <div class="infotext">
+                        <h2>Бедаш Антон Васильевич</h2>
+                   
+                      <p>Я работаю специалистом технической поддержки в торговой компании "Свет".</p>
+                      <p>В свободное время люблю программировать и изучать различные технологии.</p>
+            <!--<hr color="grey" align="left", size="5", width="100%" >-->         
+                             <h4>Список социальных сетей</h4>
+                    <div class="link">
+                                <a href="http://ok.ru" target="_blank"> odnoklassniki.ru |</a> 
+                                <a href="https://telegram.org/" target="_blank"> Телеграм |</a>
+                                <a href="http://youtube.com" target="_blank">YouTube</a>
+                    </div>
+            
+                    </div>
+</div>
+    <div class="card bg-yellow">
+<h3>Мои интересы и увлечения:</h3>
+<ol class="liststyle">
+<li>Frontend</li>
+     <ul>
+    <li>HTML + CSS</li>
+    <li>Java script</li>
+    <li>React</li>
+    </ul>
+<li>Backend</li>
+    <ul>
+    <li>C++</li>
+    <li>Python</li>
+    <li>Perl</li>
+    <li>Java</li>
+    <li>1C</li>
+    </ul> 
+<li>Ремонт компьютерной техники</li>
+<li>Настройка и монтаж ЛВС</li>
+<li>Графика и дизайн</li>
+    <ul>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>Premiere</li>
+        <li>Corel Drow</li>
+    </ul>
+</ol>
+</div>
+<div class="card bg-red">
+<table class="tablestyle" width="500">
+    <thead>
+       <tr>
+         <th>Организация</th>
+         <th>Должность</th>
+         <th>Период</th>
+      </tr>
+    </thead> 
+   <tbody>
+    <tr>
+        <td>УКСП "Коровчино"</td>
+        <td>Юрисконсульт</td>
+        <td>2004-2005</td>
+    </tr>
+    <tr>
+        <td>УП "Бытуслуги"</td>
+        <td>Фотограф</td>
+        <td>2005-2006</td>
+    </tr>
+    <tr>
+         <td>ООО "ДССМУ"</td>
+         <td>Электромонтажник</td>
+         <td>2006-2008</td>
+    </tr>
+    <tr>
+        <td>ООО "Свет"</td>
+        <td>Специалист технической службы</td>
+        <td>2008-2020</td>
+    </tr>
+   </tbody> 
+</table>
+</div>
+<div class="card bg-green">
+    <form action="/" class="form">
+        <h2>Связаться со мной</h2>
+  <div class="form-row">  
+        <div class="form-group">
+           <label for="name">Ваше Имя</label>
+           <input type="text" id="name" placeholder="Фамилия, Имя, Отчество"> 
+        </div>
+         
+         <div class="form-group">
+              <label for="email" class="form-groupe">E-mail:</label>
+             <input type="text" id="email" placeholder="Введите E-mail">
+         </div>
+  </div>
+            <div class="form-group">  
+                  <label for="textarea">Ваше сообщение</label>
+                  <textarea type="message" id="message" cols="50" rows="20" placeholder="Введите Ваше сообщение"></textarea>
+            </div>    
+                  <button class="btn" type="submit">Отправить сообщение</button>  
+    
+    </form>        
+</div>
+</body>
+</html>
